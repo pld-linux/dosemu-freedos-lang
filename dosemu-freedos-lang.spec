@@ -11,8 +11,8 @@ Group(pl):	Aplikacje/Emulatory
 Source0:	ftp://ftp.task.gda.pl/pub/dos/freedos/files/distributions/ripcord/beta7h01/EN/full/disksets/lang1.zip
 URL:		http://www.freedos.org/
 BuildRequires:	unzip
-Obsoletes:	dosemu-freedos
 Requires:	dosemu
+Requires:	dosemu-freedos-util
 Exclusivearch:	%{ix86}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -31,7 +31,7 @@ mkdir freedos
 for i in *.ZIP ; do
 	unzip -L -o $i -d freedos
 done
-rm -f freedos/copying
+rm -f freedos/copying freedos/bin/cwsdpmi.exe
 
 %install
 rm -rf $RPM_BUILD_ROOT
