@@ -1,5 +1,5 @@
 Summary:	Various development tools for FreeDOS
-Summary(pl):	Kompilatory i inne narzêdzia developerskie dzia³aj±ce pod DOSem
+Summary(pl):	Kompilatory i inne narzêdzia developerskie dzia³aj±ce pod DOS-em
 Name:		dosemu-freedos-lang
 Version:	beta7h01
 Release:	3
@@ -19,7 +19,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Various development tools for FreeDOS.
 
 %description -l pl
-Ró¿ne narzêdzia developerskie dla DOSa, takie jak kompilatory,
+Ró¿ne narzêdzia developerskie dla DOS-a, takie jak kompilatory,
 interpretery, linker, itp.
 
 %prep
