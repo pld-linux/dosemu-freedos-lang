@@ -23,7 +23,7 @@ Ró¿ne narzêdzia developerskie dla DOS-a, takie jak kompilatory,
 interpretery, linker, itp.
 
 %prep
-%setup -c %{name} -q
+%setup -q -c
 
 rm -rf freedos
 mkdir freedos
