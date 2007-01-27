@@ -12,7 +12,7 @@ URL:		http://www.freedos.org/
 BuildRequires:	unzip
 Requires:	dosemu
 Requires:	dosemu-freedos-minimal
-ExclusiveArch:	%{ix86}
+ExclusiveArch:	%{ix86} %{x8664}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
