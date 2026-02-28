@@ -2,7 +2,7 @@ Summary:	Various development tools for FreeDOS
 Summary(pl.UTF-8):	Kompilatory i inne narzędzia developerskie działające pod DOS-em
 Name:		dosemu-freedos-lang
 Version:	beta7h03
-Release:	1
+Release:	2
 Epoch:		1
 License:	GPL
 Group:		Applications/Emulators
