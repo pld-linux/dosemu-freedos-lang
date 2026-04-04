@@ -2,7 +2,7 @@ Summary:	Various development tools for FreeDOS
 Summary(pl.UTF-8):	Kompilatory i inne narzędzia developerskie działające pod DOS-em
 Name:		dosemu-freedos-lang
 Version:	beta7h03
-Release:	2
+Release:	3
 Epoch:		1
 License:	GPL
 Group:		Applications/Emulators
@@ -12,6 +12,7 @@ URL:		http://www.freedos.org/
 BuildRequires:	unzip
 Requires:	dosemu
 Requires:	dosemu-freedos-minimal
+BuildArch:	noarch
 ExclusiveArch:	%{ix86} %{x8664}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
